@@ -1,4 +1,4 @@
-function Letter(letter) {
+let Letter = function(letter) {
     this.ltr = letter; //holds underlying letter
     this.guess = false;
     this.showLtr = function() {
